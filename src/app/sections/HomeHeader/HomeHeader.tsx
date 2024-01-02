@@ -1,9 +1,11 @@
 import React from "react";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 import "./HomeHeader.scss";
 import Image from "next/image";
-import PhoneDashBoard from "../../../../public/Programmer-pana.svg";
+import BannerOne from "../../../../public/banner-1.jpg";
 import Nav from "@/app/components/Nav/Nav";
+import Link from "next/link";
 // import PrimaryBtn from "@/app/components/PrimaryBtn";
 
 // #f2f7f8 bg
@@ -12,7 +14,7 @@ const HomeHeader = () => {
   return (
     <div
       className="HomeHeader"
-      style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
+      style={{ backgroundColor: "#fcfcfc", color: "#3d4f60" }}
     >
       <Nav />
       <div className="lg:px-6">
@@ -20,38 +22,45 @@ const HomeHeader = () => {
           {/* py-24 sm:py-0 */}
           <div className="pl-3 max-w-xl lg:py-16">
             {/* sm:py-48 lg:py-56 */}
-            <div className="text">
+            <div className="text max-w-xl lg:py-16">
               <h1
                 className="text-md font-extrabold tracking-wide shadow-2 sm:text-3xl"
-                style={{ color: "#1D4ED8" }} //#122231
+                style={{ color: "#000" }} //#122231
               >
-                THE BEST CHOICE FOR IT SOLUTIONS
+                Hello, I`m Anas Yakubu
               </h1>
               <p
                 className="mt-4 text-sm leading-8"
                 style={{ color: "#122231" }} //#3d4f60 122231
               >
-                At{" "}
-                <span style={{ color: "#1D4ED8" }}>
-                  NYM Technologies Limited
-                </span>
-                , we are at the forefront of innovation, driving technological
-                advancements across various domains. As a leading technology
-                company, we specialize in AI, Software Development, Consultancy,
-                Robotics, and Web Development, delivering cutting-edge solutions
-                that empower businesses to thrive in the digital age. Get your
-                school on board
+                I am a software engineer who enjoys seamlessly bridging the gap
+                between people and digital space by day, and a lofi loving
+                doodler by night.
               </p>
             </div>
-            <div className="flex mt-10">
+            <div className="flex mt-5">
               {/* <PrimaryBtn text="Explore our technology" /> */}
-              <button className="bg-transparent text-gray-900 ml-3 font-semibold border text-sm p-2 m-1 rounded-sm border-black">
-                Feel the Innovation
-              </button>
+              <Link
+                href="https://twitter.com/___anaaasss"
+                className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center"
+              >
+                <span className="mr-3">Connect with me</span>{" "}
+                <FaSquareXTwitter />
+              </Link>
             </div>
           </div>
           <div className="text-center mt-10 pt-10">
-            {/* <Image className="phoneImg" src={PhoneDashBoard} alt="Logo" /> */}
+            <Image
+              className="phoneImg"
+              style={{
+                width: "500px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              src={BannerOne}
+              alt="Logo"
+            />
           </div>
         </div>
       </div>

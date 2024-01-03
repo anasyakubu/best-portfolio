@@ -1,6 +1,6 @@
 import DisplayCom from "@/app/components/DisplayCom/DisplayCom";
 import React from "react";
-import "./displaySection.scss";
+import "./DisplaySection.scss";
 
 const displaySection = () => {
   return (

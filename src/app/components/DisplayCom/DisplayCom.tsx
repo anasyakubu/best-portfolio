@@ -36,7 +36,7 @@ const DisplayCom = () => {
         <div className="mt-5">
           <Link
             href="/"
-            className="bg-transparent text-gray-900 font-thin border text-sm p-2  rounded-sm border-black"
+            className="bg-transparent text-gray-900 font-mediums border text-sm p-2  rounded-sm border-black"
           >
             Learn More
           </Link>

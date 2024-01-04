@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import DisplayDemo from "../../../../public/diaplayDemo.png";
 import Link from "next/link";
 import "./DisplayCom.scss";
+import NYMApp from "../../../../public/NYMApp.png";
+import AI from "../../../../public/AI.png";
+import MGC from "../../../../public/MGC.png";
+import NewsApp from "../../../../public/NewsApp.png";
 
 const DisplayCom = () => {
   return (
@@ -19,7 +22,7 @@ const DisplayCom = () => {
       >
         <div className="p-5 ImgSection">
           <Link href="/">
-            <Image className="Img" src={DisplayDemo} alt="Display Image" />
+            <Image className="Img" src={NYMApp} alt="Display Image" />
           </Link>
         </div>
       </div>

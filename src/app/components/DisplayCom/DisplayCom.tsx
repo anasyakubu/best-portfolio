@@ -7,7 +7,14 @@ import AI from "../../../../public/AI.png";
 import MGC from "../../../../public/MGC.png";
 import NewsApp from "../../../../public/NewsApp.png";
 
-const DisplayCom = () => {
+interface displayProps {
+  displayImg: any;
+  tittle: string;
+  links: any;
+}
+
+const DisplayCom = (props: displayProps) => {
+  const { displayImg, tittle, links } = props;
   return (
     <div className="DisplayCom p-3">
       <div
@@ -21,13 +28,13 @@ const DisplayCom = () => {
         }}
       >
         <div className="p-5 ImgSection">
-          <Link href="/">
-            <Image className="Img" src={NYMApp} alt="Display Image" />
+          <Link href={links}>
+            <Image className="Img" src={displayImg} alt="Display Image" />
           </Link>
         </div>
       </div>
       <div className="mt-3">
-        <h6 className="text-xl font-medium text-black">Strip</h6>
+        <h6 className="text-xl font-medium text-black">{tittle}</h6>
         <p
           className="text-sm leading-8 mt-2"
           style={{ color: "#122231" }} //#3d4f60 122231
@@ -38,7 +45,7 @@ const DisplayCom = () => {
         </p>
         <div className="mt-5">
           <Link
-            href="/"
+            href={links}
             className="bg-transparent text-gray-900 font-medium border text-sm p-2  rounded-sm border-black"
           >
             Learn More

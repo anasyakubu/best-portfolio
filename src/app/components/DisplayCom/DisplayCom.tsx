@@ -28,7 +28,7 @@ const DisplayCom = (props: displayProps) => {
         }}
       >
         <div className="p-5 ImgSection">
-          <Link href={links}>
+          <Link href={links} target="_blank">
             <Image className="Img" src={displayImg} alt="Display Image" />
           </Link>
         </div>
@@ -46,6 +46,7 @@ const DisplayCom = (props: displayProps) => {
         <div className="mt-5">
           <Link
             href={links}
+            target="_blank"
             className="bg-transparent text-gray-900 font-medium border text-sm p-2  rounded-sm border-black"
           >
             Learn More

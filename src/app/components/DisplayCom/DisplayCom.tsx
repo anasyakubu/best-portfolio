@@ -16,11 +16,11 @@ interface displayProps {
 const DisplayCom = (props: displayProps) => {
   const { displayImg, tittle, links } = props;
   return (
-    <div className="DisplayCom p-3">
+    <div className="DisplayCom p-3 m-1">
       <div
         className="Cont"
         style={{
-          // backgroundColor: "#122231",
+          // backgroundColor: "#f2f8fc",
           // color: "#3d4f60",
           borderBlockColor: "#122231",
           border: "1px solid",
@@ -29,7 +29,11 @@ const DisplayCom = (props: displayProps) => {
       >
         <div className="p-5 ImgSection">
           <Link href={links} target="_blank">
-            <Image className="Img" src={displayImg} alt="Display Image" />
+            <Image
+              className="Img rounded-md"
+              src={displayImg}
+              alt="Display Image"
+            />
           </Link>
         </div>
       </div>

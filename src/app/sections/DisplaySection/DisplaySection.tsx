@@ -5,6 +5,7 @@ import NYMApp from "../../../../public/NYMApp.png";
 import AI from "../../../../public/AI.png";
 import MGC from "../../../../public/MGC.png";
 import NewsApp from "../../../../public/NewsApp.png";
+import Link from "next/link";
 
 const displaySection = () => {
   return (
@@ -36,6 +37,17 @@ const displaySection = () => {
             tittle="News App"
             links="https://news360-three.vercel.app/"
           />
+        </div>
+        <div className="mt-5">
+          {/* <Link
+            href="/"
+            className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center w-64"
+          >
+            View All Projects
+          </Link> */}
+          <Link href="/" className="text-gray-900">
+            View All Projects
+          </Link>
         </div>
       </div>
     </div>

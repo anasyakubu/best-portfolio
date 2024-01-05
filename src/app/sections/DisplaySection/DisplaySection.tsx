@@ -45,7 +45,7 @@ const displaySection = () => {
           >
             View All Projects
           </Link> */}
-          <Link href="/" className="text-gray-900">
+          <Link href="/" className="text-gray-900 font-medium underline">
             View All Projects
           </Link>
         </div>

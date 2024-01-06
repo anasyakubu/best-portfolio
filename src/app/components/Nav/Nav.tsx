@@ -34,13 +34,16 @@ const Nav = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52"
             >
               <li>
-                <a>Homepage</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a>Portfolio</a>
+                <Link href="Pages/Resume">Resume</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link href="Pages/About">About</Link>
+              </li>
+              <li>
+                <Link href="Pages/Portfolio">Portfolio</Link>
               </li>
             </ul>
           </div>

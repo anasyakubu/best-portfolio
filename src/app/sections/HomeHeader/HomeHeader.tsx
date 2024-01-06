@@ -27,7 +27,7 @@ const HomeHeader = () => {
                 className="text-md font-extrabold tracking-wide shadow-2 sm:text-3xl"
                 style={{ color: "#000" }} //#122231
               >
-                Hello, I`m Anas Yakubu
+                Hello, I`m <span className="text-blue-600">Anas Yakubu</span>
               </h1>
               <p
                 className="mt-4 text-sm leading-8"

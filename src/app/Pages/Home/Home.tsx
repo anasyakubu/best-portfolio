@@ -8,7 +8,12 @@ const Home = () => {
   return (
     <div className="Home">
       <HomeHeader />
-      <ScrollDown />
+      <div
+        className="flex justify-center items-center"
+        style={{ backgroundColor: "#fcfcfc", color: "#3d4f60" }}
+      >
+        <ScrollDown />
+      </div>
       <DisplaySection />
       <Footer />
     </div>

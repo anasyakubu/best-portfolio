@@ -42,12 +42,15 @@ const Intro = () => {
                 >
                   {" "}
                   Bayero University Kano
-                </Link>
-                . My passion for software engineering emerged as the world
-                turned digital and I know find myself creating solutions to the
-                everyday problems that frame our human experience. Programming
-                for inclusively, equitability, and universal accessibility are
-                my core values when it comes to coding positive experiences with
+                </Link>{" "}
+                .
+                <br /> My passion for software engineering emerged as the world
+                turned digital and I know find myself creating{" "}
+                <span className="text-blue-600">solutions</span> to the everyday
+                problems that frame our human experience. <br />{" "}
+                <span className="text-blue-600">Programming</span> for
+                inclusively, equitability, and universal accessibility are my
+                core values when it comes to coding positive experiences with
                 people in mind.
               </p>
             </div>

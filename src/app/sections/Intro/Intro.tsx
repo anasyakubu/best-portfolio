@@ -35,7 +35,11 @@ const Intro = () => {
                 My name is Anas. I`m a{" "}
                 <span className="text-blue-600">Software Engineer</span> and a
                 IT student at
-                <Link href="/" className="text-blue-600">
+                <Link
+                  href="https://www.buk.edu.ng/"
+                  target="_blank"
+                  className="text-blue-600"
+                >
                   {" "}
                   Bayero University Kano
                 </Link>

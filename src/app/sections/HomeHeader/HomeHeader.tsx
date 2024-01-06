@@ -33,9 +33,10 @@ const HomeHeader = () => {
                 className="mt-4 text-sm leading-8"
                 style={{ color: "#122231" }} //#3d4f60 122231
               >
-                I am a software engineer who enjoys seamlessly bridging the gap
-                between people and digital space by day, and a lofi loving
-                doodler by night.
+                I am a <span className="text-blue-600">software engineer</span>
+                who enjoys seamlessly bridging the gap between people and
+                digital space by day, and a{" "}
+                <span className="text-blue-600">anime</span> lover.
               </p>
             </div>
             <div className="flex mt-5">

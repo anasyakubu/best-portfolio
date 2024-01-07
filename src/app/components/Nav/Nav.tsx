@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { FaLinkedin, FaInstagram, FaGithub, FaFacebook } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Nav = () => {
   return (

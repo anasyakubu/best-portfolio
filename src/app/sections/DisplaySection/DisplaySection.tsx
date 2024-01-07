@@ -21,21 +21,25 @@ const displaySection = () => {
             displayImg={NYMApp}
             tittle="NYM Website"
             links="https://this-is-nym.vercel.app/"
+            text=""
           />
           <DisplayCom
             displayImg={AI}
             tittle="AI Chat Bot"
             links="https://foc-ai.vercel.app/"
+            text=""
           />
           <DisplayCom
             displayImg={MGC}
             tittle="My Grade Card Website"
             links="https://mygradecard.com/home/"
+            text=""
           />
           <DisplayCom
             displayImg={NewsApp}
             tittle="News App"
             links="https://news360-three.vercel.app/"
+            text=""
           />
         </div>
         <div className="mt-5">

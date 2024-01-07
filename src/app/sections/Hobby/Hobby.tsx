@@ -1,22 +1,20 @@
 import React from "react";
 import { FaSquareXTwitter } from "react-icons/fa6";
-
-import "./HomeHeader.scss";
+import "./Hobby.scss";
 import Image from "next/image";
-import BannerOne from "../../../../public/banner-1.jpg";
+import BannerOne from "../../../../public/Code typing-bro.svg";
 import Nav from "@/app/components/Nav/Nav";
 import Link from "next/link";
 // import PrimaryBtn from "@/app/components/PrimaryBtn";
 
 // #f2f7f8 bg
 // #3d4f60 text
-const HomeHeader = () => {
+const Hobby = () => {
   return (
     <div
       className="HomeHeader"
       style={{ backgroundColor: "#fcfcfc", color: "#3d4f60" }}
     >
-      <Nav />
       <div className="lg:px-6">
         <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           {/* py-24 sm:py-0 */}
@@ -24,30 +22,43 @@ const HomeHeader = () => {
             {/* sm:py-48 lg:py-56 */}
             <div className="text max-w-xl lg:py-16">
               <h1
-                className="text-md font-extrabold tracking-wide shadow-2 sm:text-3xl"
+                className="text-md font-extrabold tracking-wide shadow-2 sm:text-xl"
                 style={{ color: "#000" }} //#122231
               >
-                Hello, I`m Anas Yakubu
+                When I`m not Programming you can find me 👇
               </h1>
               <p
                 className="mt-4 text-sm leading-8"
                 style={{ color: "#122231" }} //#3d4f60 122231
               >
-                I am a <span className="text-blue-600">software engineer </span>
-                who enjoys seamlessly bridging the gap between people and
-                digital space by day, and a{" "}
-                <span className="text-blue-600">anime</span> lover.
+                🛠️ Sharing my Programming journey and experiences on{" "}
+                <Link
+                  href="https://github.com/anasyakubu"
+                  target="_blank"
+                  className="text-blue-600 underline"
+                >
+                  github
+                </Link>
               </p>
-            </div>
-            <div className="flex mt-5">
-              {/* <PrimaryBtn text="Explore our technology" /> */}
-              <Link
-                href="https://twitter.com/___anaaasss"
-                className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center"
+              <p
+                className="mt-4 text-sm leading-8"
+                style={{ color: "#122231" }} //#3d4f60 122231
               >
-                <span className="mr-3">Connect with me</span>{" "}
-                <FaSquareXTwitter />
-              </Link>
+                🎉 having fun with fellow Programmers and students
+              </p>
+              <p
+                className="mt-4 text-sm leading-8"
+                style={{ color: "#122231" }} //#3d4f60 122231
+              >
+                🥷 Watch Animes
+              </p>
+
+              <p
+                className="mt-4 text-sm leading-8"
+                style={{ color: "#122231" }} //#3d4f60 122231
+              >
+                📄 Also love Watching Documentary
+              </p>
             </div>
           </div>
           <div className="text-center mt-10 pt-10">
@@ -69,4 +80,4 @@ const HomeHeader = () => {
   );
 };
 
-export default HomeHeader;
+export default Hobby;

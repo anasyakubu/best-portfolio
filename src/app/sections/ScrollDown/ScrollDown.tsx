@@ -12,7 +12,7 @@ const ScrollDown = () => {
         <div className="w-10 h-10 text-center flex justify-center items-center">
           <Link
             href="/"
-            className="p-5 bg-blue-600 text-center text-white rounded-full"
+            className="p-5 bg-black text-center text-white rounded-full"
           >
             {" "}
             <FaArrowDown />

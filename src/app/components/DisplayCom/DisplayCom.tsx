@@ -11,10 +11,11 @@ interface displayProps {
   displayImg: any;
   tittle: string;
   links: any;
+  text: string;
 }
 
 const DisplayCom = (props: displayProps) => {
-  const { displayImg, tittle, links } = props;
+  const { displayImg, tittle, links, text } = props;
   return (
     <div className="DisplayCom p-3 m-1">
       <div
@@ -43,15 +44,13 @@ const DisplayCom = (props: displayProps) => {
           className="text-sm leading-8 mt-2"
           style={{ color: "#122231" }} //#3d4f60 122231
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-          nesciunt a repudiandae facere fuga fugiat et iusto. Minus, minima
-          consequatur!
+          {text}
         </p>
         <div className="mt-5">
           <Link
             href={links}
             target="_blank"
-            className="bg-transparent text-gray-900 font-medium border text-sm p-2  rounded-sm border-black"
+            className="bg-transparent pl-5 pr-5 text-gray-900 font-medium border text-sm p-2 rounded-sm border-black"
           >
             Learn More
           </Link>

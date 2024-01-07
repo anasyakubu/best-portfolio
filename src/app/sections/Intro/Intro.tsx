@@ -26,7 +26,7 @@ const Intro = () => {
                 className="text-md font-extrabold tracking-wide shadow-2 sm:text-3xl"
                 style={{ color: "#000" }} //#122231
               >
-                Yellow
+                Yellow 🫡
               </h1>
               <p
                 className="mt-4 text-sm leading-8"
@@ -53,16 +53,6 @@ const Intro = () => {
                 core values when it comes to coding positive experiences with
                 people in mind.
               </p>
-            </div>
-            <div className="flex mt-5">
-              {/* <PrimaryBtn text="Explore our technology" /> */}
-              {/* <Link
-                href="https://twitter.com/___anaaasss"
-                className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center"
-              >
-                <span className="mr-3">Connect with me</span>{" "}
-                <FaSquareXTwitter />
-              </Link> */}
             </div>
           </div>
           <div className="text-center mt-10 pt-10">

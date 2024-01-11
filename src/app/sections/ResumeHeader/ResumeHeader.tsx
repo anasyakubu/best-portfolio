@@ -5,6 +5,7 @@ import "./ResumeHeader.scss";
 import BannerOne from "../../../../public/MY-CV-Resume.png";
 import Link from "next/link";
 import DownloadButton from "@/app/components/DownloadCV/DownloadCV";
+import { FaFileDownload } from "react-icons/fa";
 
 const ResumeHeader = () => {
   return (
@@ -34,9 +35,17 @@ const ResumeHeader = () => {
                 high-quality work and exceeding expectations.
               </p>
             </div>
-            <div className="flex mt-5">{/* <DownloadButton /> */}</div>
+            <div className="flex mt-5">
+              {/* <PrimaryBtn text="Explore our technology" /> */}
+              <Link
+                href="https://twitter.com/___anaaasss"
+                className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center"
+              >
+                <span className="mr-3">Connect with me</span> <FaFileDownload />
+              </Link>
+            </div>
           </div>
-          <div className="text-center mt-10 pt-10">
+          <div className="text-center mt-10 pt-10 Img">
             <Image
               className="phoneImg"
               style={{

@@ -39,21 +39,15 @@ const displaySection = () => {
             displayImg={NewsApp}
             tittle="News App"
             links="https://news360-three.vercel.app/"
-            text="A news app is a software application designed for mobile devices, tablets, or computers that aggregates and presents news content from various sources in a user-friendly and accessible format."
+            text="A news app is a software application designed for mobile devices, tablets, or computers that aggregates and presents news content"
           />
         </div>
         <div className="mt-5">
-          {/* <Link
-            href="/"
-            className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center w-64"
-          >
-            View All Projects
-          </Link> */}
           <Link
             href="/"
-            className="bg-transparent pl-5 pr-5 text-gray-900 font-medium border text-sm p-2 rounded-sm border-black"
+            className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
           >
-            View All
+            View All Projects
           </Link>
         </div>
       </div>

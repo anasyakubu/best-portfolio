@@ -38,7 +38,7 @@ const ResumeHeader = () => {
             <div className="flex mt-5">
               {/* <PrimaryBtn text="Explore our technology" /> */}
               <Link
-                href="https://twitter.com/___anaaasss"
+                href="/"
                 className="bg-transparent text-gray-900 font-semibold border text-sm p-2  rounded-sm border-black flex justify-center items-center"
               >
                 <span className="mr-3">Connect with me</span> <FaFileDownload />

@@ -2,7 +2,7 @@ import React from "react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import "./Hobby.scss";
 import Image from "next/image";
-import BannerOne from "../../../../public/Code typing-bro.svg";
+import BannerOne from "../../../../public/Code typing-pana.svg";
 import Nav from "@/app/components/Nav/Nav";
 import Link from "next/link";
 // import PrimaryBtn from "@/app/components/PrimaryBtn";

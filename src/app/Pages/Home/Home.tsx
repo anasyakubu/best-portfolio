@@ -2,6 +2,7 @@ import HomeHeader from "@/app/sections/HomeHeader/HomeHeader";
 import ScrollDown from "@/app/sections/ScrollDown/ScrollDown";
 import DisplaySection from "@/app/sections/DisplaySection/DisplaySection";
 import React from "react";
+import Connect from "@/app/sections/Connect/Connect";
 import Footer from "@/app/sections/Footer/Footer";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <ScrollDown />
       </div>
       <DisplaySection />
+      <Connect />
       <Footer />
     </div>
   );

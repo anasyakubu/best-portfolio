@@ -21,25 +21,25 @@ const displaySection = () => {
             displayImg={NYMApp}
             tittle="NYM Website"
             links="https://this-is-nym.vercel.app/"
-            text=""
+            text="A Software Technology Company who provides advance and modern technology to it's clients "
           />
           <DisplayCom
             displayImg={AI}
             tittle="AI Chat Bot"
             links="https://foc-ai.vercel.app/"
-            text=""
+            text="AI Chat Bot for school projects.. My AI helps in notes simplification assignment making and many more"
           />
           <DisplayCom
             displayImg={MGC}
             tittle="My Grade Card Website"
             links="https://mygradecard.com/home/"
-            text=""
+            text="A school Management software.. "
           />
           <DisplayCom
             displayImg={NewsApp}
             tittle="News App"
             links="https://news360-three.vercel.app/"
-            text=""
+            text="A news app is a software application designed for mobile devices, tablets, or computers that aggregates and presents news content from various sources in a user-friendly and accessible format."
           />
         </div>
         <div className="mt-5">
@@ -49,8 +49,11 @@ const displaySection = () => {
           >
             View All Projects
           </Link> */}
-          <Link href="/" className="text-gray-900 font-medium underline">
-            View All Projects
+          <Link
+            href="/"
+            className="bg-transparent pl-5 pr-5 text-gray-900 font-medium border text-sm p-2 rounded-sm border-black"
+          >
+            View All
           </Link>
         </div>
       </div>

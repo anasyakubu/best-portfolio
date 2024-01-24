@@ -38,13 +38,13 @@ const Nav = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="Pages/Resume">Resume</Link>
+                <Link href="/Resume">Resume</Link>
               </li>
               <li>
-                <Link href="Pages/About">About</Link>
+                <Link href="/About">About</Link>
               </li>
               <li>
-                <Link href="Pages/Portfolio">Portfolio</Link>
+                <Link href="/Portfolio">Portfolio</Link>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-import Home from "./Pages/Home/Home";
+import Home from "./Home/Home";
 
 export default function Layout() {
   return (

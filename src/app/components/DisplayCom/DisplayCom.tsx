@@ -93,7 +93,7 @@ const DisplayCom = (props: displayProps) => {
               </svg>
             </span>
             <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
-              Button Text
+              Visit Site
             </span>
           </Link>
         </div>
